@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Citms.EntityFrameworkCore.Extended" Version="1.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="6.21.61" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.70" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Admin.DataAccess\Core.Admin.DataAccess.csproj" />
+    <ProjectReference Include="..\Core.Security\Core.Security.csproj" />
+  </ItemGroup>
+
+</Project>
